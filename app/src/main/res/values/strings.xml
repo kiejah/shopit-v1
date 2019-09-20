@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">FireBaseAuth</string>
+    <string name="facebook_application_id">1107418436112876</string>
+    <string name="fb_login_protocol_scheme">fb1107418436112876</string>
+    <string name="location_prompt">Choose a country</string>
+
+    <string-array name="location_arrays">
+        <item>Limuru</item>
+        <item>Kiambu</item>
+        <item>Kikuyu</item>
+        <item>Naivasha</item>
+        <item>Nanyuki</item>
+        <item>Nyeri</item>
+        <item>Lamu</item>
+        <item>Kericho</item>
+        <item>Ruaka</item>
+    </string-array>
+
+    <string-array name="Limuru">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Rongai</item>
+        <item>Limumatt</item>
+    </string-array>
+
+    <string-array name="Kiambu">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Quickmatt</item>
+    </string-array>
+    <string-array name="Kikuyu">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+        <item>KikuyuStores</item>
+    </string-array>
+    <string-array name="Ruaka">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+        <item>QuickMart</item>
+    </string-array>
+    <string-array name="Naivasha">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+        <item>QuickMart</item>
+    </string-array>
+    <string-array name="Nanyuki">
+        <item>Naivas</item>
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+        <item>Nakumatt</item>
+    </string-array>
+    <string-array name="Nyeri">
+        <item>NyeriStores</item>
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+        <item>QuickMart</item>
+    </string-array>
+    <string-array name="Lamu">
+        <item>Clean Shelf</item>
+        <item>Tuskys</item>
+    </string-array>
+    <string-array name="Kericho">
+        <item>Naivas</item>
+        <item>Tuskys</item>
+    </string-array>
+
+    <string name="title_activity_location">LocationActivity</string>
+</resources>
