@@ -1,10 +1,11 @@
-package com.example.firebaseauth;
+package com.example.firebaseauth.CATEGORIES;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+import com.example.firebaseauth.R;
 
 public class CategoriesActivity extends AppCompatActivity {
 

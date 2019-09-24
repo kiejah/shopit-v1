@@ -1,16 +1,13 @@
 package com.example.firebaseauth;
 
 import android.content.Intent;
-import android.media.Image;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -19,6 +16,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.firebaseauth.ADS.AdsRecyclerAdapter;
+import com.example.firebaseauth.LOCATION.LocationActivity;
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsLogger;
 import com.firebase.ui.auth.AuthUI;
@@ -170,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
                 new android.os.Handler().postDelayed(
                         new Runnable() {
                             public void run() {
-                                Intent intent = new Intent(MainActivity.this,LocationActivity.class);
+                                Intent intent = new Intent(MainActivity.this, LocationActivity.class);
                                 startActivity(intent);
 
                             }
